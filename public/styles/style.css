@@ -129,3 +129,81 @@ body {
 .version {
     font-size: 12px;
 }
+
+/* inicio pagina login */
+
+.login {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    height: var(--tamanho-login);
+    display: flex;
+    
+
+}
+
+.login .container {
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card {
+    background-color: #e5e5e5;
+    color: palevioletred;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+
+.card-login{
+    width: 28em;
+    height: 16em;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-weight: 700;
+    padding: 5px;
+    
+    
+}
+
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: solid 2px #32b9cd;
+    text-align: center;
+}
+
+.botao {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 7em;
+    height: 2em;
+    background-color: rgb(214, 31, 92);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/* inicio da pagina cadastro */
+
+.card-cadastro {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    width: 28em;
+}
+
+
+
